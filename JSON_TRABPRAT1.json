@@ -1,0 +1,26 @@
+[
+    {
+      "marca": "Audi",
+      "modelo": "Audi A4 1.9TDI",
+      "quilometragem": "200.000km",
+      "preco": "9.999$",
+      "imagem": "https://bringatrailer.com/wp-content/uploads/2019/06/2000_audi_s4_1560794633fca7c52efcfa866ecDSC_0077-e1561467574974.jpg?fit=940%2C626"
+    },
+    {
+      "marca": "Mercedes",
+      "modelo": "Mercedes 190e 2.5 16V",
+      "combustivel": "Gasolina",
+      "quilometragem": "499.999km",
+      "preco": "49.999$",
+      "imagem": "https://auto-drive.pt/wp-content/uploads/2021/08/1990-Mercedes-190E-2-5-16-Evolution-II-169Gallery-acaf9e7e-1825005.jpg"
+    },
+    {
+      "marca": "Renault",
+      "imagem": "https://cdn.easysite.pt/pub/10593/1164432/EDN_NCAUTO_25496269-0.jpg"
+    },
+    {
+      "marca": "Porsche",
+      "imagem": "https://www.motor24.pt/files/2019/03/1681733_Ferrari_F8_Tributo_4-800x533_c.jpg"
+    }
+  ]
+  
