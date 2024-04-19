@@ -2,6 +2,7 @@
   {
     "marca": "Audi",
     "modelo": "Audi A4 1.9TDI",
+    "combustivel": "Diesel",
     "quilometragem": "200.000km",
     "preco": "9.999$",
     "imagem": "Fotos/Carro1.jpg"
@@ -16,36 +17,69 @@
   },
   {
     "marca": "Renault",
-    "imagem": "Fotos/Carro3.jpg"
+    "modelo":"Megane 1.5dci",
+    "combustivel":"Diesel",
+    "imagem": "Fotos/Carro3.jpg",
+    "preco":"13.999$",
+    "quilometragem":"220.000km"
+
+    
   },
   {
     "marca":"BMW",
+    "modelo":"320d e90",
     "imagem": "Fotos/Carro4.jpg",
-    "quilometragem":"320.000km"
+    "quilometragem":"320.000km",
+    "combustivel":"Diesel",
+    "preco":"10.999$"
   },
   {
     "marca": "Porsche",
-    "imagem": "Fotos/Carro5.jpg"
+    "modelo":"911 turbo 3.3",
+    "combustivel":"Gasolina",
+    "imagem": "Fotos/Carro5.jpg",
+    "quilometragem":"320.000km",
+    "preco":"140.000$"
+
   },
   {
-    "marca": "Ferrari",
-    "modelo": "Ferrari F8 Tributo",
-    "quilometragem": "10.000km",
-    "preco": "200.000$",
-    "imagem": "Fotos/Carro6.jpg"
+    "marca": "Mercedes",
+    "modelo": "C63  5.8 V8",
+    "quilometragem": "90.000km",
+    "preco": "100.000$",
+    "imagem": "Fotos/Carro6.jpg",
+    "combustivel":"Gasolina"
+    
   },
   {
-    "marca": "Tesla",
-    "modelo": "Tesla Model S",
+    "marca": "Audi",
+    "modelo": "A3 8P 2.0TDI",
     "quilometragem": "5.000km",
     "preco": "80.000$",
     "imagem": "Fotos/Carro7.jpg"
   },
   {
-    "marca": "Ford",
-    "modelo": "Ford Mustang GT",
+    "marca": "Porshe",
+    "modelo": "911 GT3 Coupe",
     "quilometragem": "100.000km",
-    "preco": "30.000$",
-    "imagem": "Fotos/Carro8.jpg"
-  }
+    "preco": "270.000$",
+    "imagem": "Fotos/Carro8.jpg",
+    "combustivel":"Gasolina"
+  },
+  {
+    "marca":"Ford",
+    "modelo":"Focus 3 1.5TDCI",
+    "quilometragem":"200.000km",
+    "preco":"13.999$",
+    "imagem":"Fotos/Carro9.jpg",
+    "combustivel":"Diesel"
+  },
+ {
+  "marca":"Volkswagen",
+  "modelo":"Golf 1.6TDI",
+  "quilometragem":"130.000km",
+  "preco":"13.200$",
+  "imagem":"Fotos/Carro10.jpg",
+  "combustivel":"Diesel"
+ }
 ]
