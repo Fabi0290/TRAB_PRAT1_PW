@@ -14,7 +14,7 @@
         <button class="button1" onclick=SignUp()> Sign-UP</button>
         <button class="button1" onclick="Login()"> Login </button>
     
-</nav>
+  </nav>
 
 <h1>Destaques</h1>
 
@@ -62,8 +62,7 @@
           <label>Password</label>
           <input type="password">
           <p></p>
-          <button class="button2">Login</button>
-
+          <button><a onclick="login()">Login</a></button>
       </div>
 
   </div>
@@ -88,6 +87,9 @@
     function fecharLogin(){
       var modal = document.getElementById("ModalLogin");
         modal.style.display = "none";
+    }
+    function login(){
+      window.location.href="LOGIN_PAGINA.html"
     }
 
   //funcao para carregar dados pelo json
