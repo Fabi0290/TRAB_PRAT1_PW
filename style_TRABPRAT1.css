@@ -35,6 +35,43 @@ img{
     transition: background-color 0.3s ease;
 
 }
+.button3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+    float: left;
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: white; 
+    color: black; 
+    border: black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button4 {
+    display: block; /* Certifica-se de que cada botão ocupa toda a largura do container */
+    width: 100%; /* Ocupa toda a largura do container */
+    height: 60px; /* Define a altura do botão */
+    margin-bottom: 20px; /* Margem inferior para espaçamento entre os botões */
+    margin-left: 180px;
+    background-color: #888; 
+    color: black; 
+    border: black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button5 {
+    margin-bottom: 20px; /* Margem inferior para espaçamento entre os botões */
+    background-color:cornflowerblue; 
+    color: white; 
+    border: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 nav {
     background-color:#737373;
     display: flex;
@@ -106,25 +143,7 @@ nav {
 }
 
 /* Estilos para os botões */
-.botao-esquerdo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
 
-.botao-direito {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 12px;
-    background-color: white; 
-    color: black; 
-    border: black;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    
-}
 
 .frase {
     font-size: 36px; 
@@ -137,13 +156,7 @@ nav {
     margin-top: 20px; /* Margem superior para os botões */
 }
 
-.botao1 {
-    display: block; /* Certifica-se de que cada botão ocupa toda a largura do container */
-    width: 100%; /* Ocupa toda a largura do container */
-    height: 60px; /* Define a altura do botão */
-    margin-bottom: 20px; /* Margem inferior para espaçamento entre os botões */
-    margin-left: 180px;
-}
+
 
 .meu-modal {
     display: none; /* Oculta o modal por padrão */
@@ -177,4 +190,42 @@ nav {
     font-size: 24px; 
     margin-left: 600px;
     margin-top: 100px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dados label {
+    margin-bottom: 5px;
+    width: 100px; /* ajuste este valor conforme necessário */
+}
+
+.dados input {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%; /* para preencher a largura disponível */
+    height: 50%;
+    font-size: 14px;
+}
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#carroDetalhes {
+    height: 111%; /* Defina a altura desejada aqui */
 }
